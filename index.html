@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>JHOJAN DE LA OSSA</h1>
+        <nav>
+            <a href="#bio">Biografía</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#lists">Listas y Horario</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="bio">
+        <h2>Biografía</h2>
+        <p>Soy estudiante de diseño gráfico en la institución universitaria de Barranquilla (IUB), tengo 19 años, soy de Barranquilla y vivo en el barrio El Bosque.</p>
+        <img src="jhojan.jpg" width="200">
+    </section>
+
+    <section id="skills">
+        <h2>Habilidades Técnicas</h2>
+        <div class="skills">Diseño de piezas digitales</div>
+        <div class="skills">Identidad visual</div>
+        <div class="skills">Piezas publicitarias</div>
+        <div class="skills">Piezas para redes</div>
+    </section>
+
+   
+    <section id="lists">
+        <h2>Listas y Horario Semanal</h2>
+
+        <h3>Mis Hobbies</h3>
+        <ul>
+            <li>Dibujo </li>
+            <li>Fotografía</li>
+            <li>Escuchar musica</li>
+            <li>Lectura de diseño y arte</li>
+            <li>Ver peliculas y series</li>
+        </ul>
+
+        <h3>Tareas Prioritarias</h3>
+        <ol>
+            <li>Finalizar proyecto de identidad visual</li>
+            <li>Aprender mas sobre programación</li>
+            <li>Actualizar portafolio digital</li>
+            <li>Estudiar nuevas técnicas de diseño</li>
+        </ol>
+
+        <h3>Horario Semanal</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Actividad</th>
+                    <th>Hora</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>Clases de programación</td>
+                    <td>1:00pm - 5:00pm</td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>Clases de programación</td>
+                    <td>1:00pm - 5:00pm</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>Clases de programación</td>
+                    <td>1:00pm - 5:00pm</td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>Clases de programación</td>
+                    <td>1:00pm - 5:00pm</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>Clases de marketing</td>
+                    <td>2:00pm - 5:00pm</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Tu correo electrónico">
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí"></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <br>
+        <button id="welcomeBtn">Saludar</button>
+    </section>
+
+    <footer>
+        <p>Email: delaossajhojan@gmail.com | Tel: 3103568561</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
